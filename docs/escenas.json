@@ -1,0 +1,338 @@
+{
+  "1": {
+    "texto": "Cruzar el puente<br><br><span class=\"transcription\">(Puente de Peralonso tomado por el Occidente)</span>",
+    "imagen": "./assets/4.jpg",
+    "escena": "mapa"
+  },
+  "2": {
+    "texto": "El lápiz de Rivera traza triste o con ternura...<br><br><span class=\"transcription\">(Vista de la población del Carmen)</span>",
+    "imagen": "./assets/5.jpg",
+    "opciones": [
+      {
+        "btn": "un paisaje",
+        "texto": "Un paisaje",
+        "escena": "2_1_1"
+      },
+      {
+        "btn": "un retrato",
+        "texto": "Un retrato",
+        "escena": "2_2_1"
+      }
+    ]
+  },
+  "3": {
+    "texto": "En batalla, unos desafortunados y otros sin fortuna<br><br><span class=\"transcription\"></span>",
+    "imagen": "./assets/OficialesRevolucionariosQuintilioGavassaCa1900.jpg",
+    "opciones": [
+      {
+        "btn": "desafortunados",
+        "texto": "Desafortunados",
+        "escena": "3_1_1"
+      },
+      {
+        "btn": "sin fortuna",
+        "texto": "Sin fortuna",
+        "escena": "3_2_1"
+      }
+    ]
+  },
+  "4": {
+    "texto": "En los vaivenes de la guerra, los días y sus vidas<br><br><span class=\"transcription\">(Tipos de la revolución. —Bon \"Libres de Ocaña\")</span>",
+    "imagen": "./assets/21.jpg",
+    "opciones": [
+      {
+        "btn": "vaivenes de la guerra",
+        "texto": "Vaivenes de la guerra",
+        "escena": "4_1_1"
+      },
+      {
+        "btn": "los días y sus vidas",
+        "texto": "Los días y sus vidas",
+        "escena": "4_2_1"
+      }
+    ]
+  },
+  "5": {
+    "texto": "Desde lejos pueden verse<br><br><span class=\"transcription\">(Soldados divisando el campamento de Chopo y sus atrincheramientos)</span>",
+    "imagen": "./assets/29.jpg",
+    "escena": "5_1_1"
+  },
+  "6": {
+    "texto": "La lucha por un sueño está llena de cosas mundanas:<br><br><span class=\"transcription\"></span>",
+    "imagen": "./assets/escudo.jpg",
+    "opciones": [
+      {
+        "btn": "un bocado",
+        "texto": "Un bocado",
+        "escena": "6_1_1"
+      },
+      {
+        "btn": "una tumba",
+        "texto": "Una tumba",
+        "escena": "6_2_1"
+      },
+      {
+        "btn": "un tropiezo",
+        "texto": "Un tropiezo",
+        "escena": "6_3_1"
+      }
+    ]
+  },
+  "7": {
+    "texto": "Y con honda amargura escribe apuntes del viaje,<br><br><span class=\"transcription\">(En la trocha — soldados de distintos batallones)</span>",
+    "imagen": "./assets/34.jpg",
+    "escena": "7_1_1"
+  },
+  "8": {
+    "texto": "¿Adónde lleva este camino?<br><br><span class=\"transcription\">(En los Elechales — el Bon \"Maceo\" marcha en refuerzo)</span>",
+    "imagen": "./assets/41.jpg",
+    "opciones": [
+      {
+        "btn": "¿Un campo abierto?",
+        "texto": "¿Un campo abierto?",
+        "escena": "8_1_1"
+      },
+      {
+        "btn": "¿Algún otro laberinto?",
+        "texto": "¿Algún otro laberinto?",
+        "escena": "8_2_1"
+      }
+    ]
+  },
+  "9": {
+    "texto": "¿Adónde lleva este camino?<br><br><span class=\"transcription\">(Vigilando un prisionero de \"Terán\")</span>",
+    "imagen": "./assets/46.jpg",
+    "opciones": [
+      {
+        "btn": "Alguna parte, adelante",
+        "texto": "Alguna parte, adelante",
+        "escena": "9_1_1"
+      },
+      {
+        "btn": "De regreso, por donde siempre hemos venido",
+        "texto": "De regreso, por donde siempre hemos venido",
+        "escena": "9_2_1"
+      }
+    ]
+  },
+  "10": {
+    "texto": "\"El arte como testimonio durante la guerra es diferente del arte de la guerra. No obstante, existe un momento en que esas dos modalidades se reunen: cuando un artista toma las armas, se compromete con uno de los grupos en conflicto y, si bien como soldado lucha por una ideología, como artista produce obras que van más allá del simple documento.\" \nBeatriz González <br><br><span class=\"transcription\">(Retrato del coronel P. Rivera Arce, jefe del Bon Libres de Ocaña. Tomado en el campamento La Quebrada</span>",
+    "imagen": "./assets/48.jpg",
+    "escena": "creditos"
+  },
+  "portada": {
+    "texto": "El dibujante y comandante liberal Peregrino Rivera Arce registró en su libreta de dibujo algunas impresiones de su paso por la Guerra de los Mil Días. Este álbum, fechado en enero de 1900, da cuenta de la vida y los eventos de la guerra durante algunos meses posteriores a la victoria liberal en la batalla de Peralonso (diciembre, 1899).<br><br> Esta interpretación interactiva del álbum de Rivera Arce permite perderse en sus documentos, al tiempo que traza entre ellos un camino narrativo que las lectoras y los lectores pueden recorrer tomando decisiones en la historia.",
+    "escena": "1",
+    "imagen": "./assets/mapa.png",
+    "areas": [
+      {
+        "x": "507",
+        "y": "387",
+        "w": 50,
+        "h": 50,
+        "texto": "1",
+        "escena": "1",
+        "tooltip": "Peralonso"
+      }
+    ]
+  },
+  "creditos": {
+    "texto": "Créditos\n    Por Juan Álvarez Umbarila y Sergio Rodríguez Gómez\n    Programado con Aventura.js\n    2022\n    <br>\n    <br>\n    Documentos usados: \n     — <a href=\"https://babel.banrepcultural.org/digital/collection/p17054coll10/id/3636\" target=\"_blank\">Peregrino Rivera Arce. “Recuerdo de campaña”. (1900).</a>\n    —Firmado por “Jena”. Fragmentos del poema titulado “El lápiz de Ribera”, transcrito en la página 3 del álbum de dibujo. (Tunja, 28 de marzo de 1901).\n    —Dirección General de la Guerra. “Orden Generalísima de  los E.E.U.U. de Colombia”. (13 de febrero de 1900).\n    —Beatriz González. “Artistas en tiempos de guerra: Peregrino Rivera Arce”. (1999).\n    —Quintilio Gavassa. Foto de “Oficiales revolucionarios”. (ca. 1900).\n    —<a href=\"https://repositorio.unal.edu.co/handle/unal/35824\" target=\"_blank\">Peregrino Rivera Arce y Darío Gaitán. Billete de $1 del Departamento de Santander. (1900).</a>\n    —<a href=\"https://1886.u-bordeaux-montaigne.fr/s/1886/item/204348#?c=&m=&s=&cv=&xywh=-795%2C0%2C13132%2C9727\" target=\"_blank\">Manuel Ponce de León. “Mapa de la mayor parte de la República de Colombia y de la región occidental de los Estados Unidos de Venezuela”. (1905).</a>\n    <br>\n    <br>\n    Bibliografía\n    —Jaramillo, Carlos Eduardo. Los guerrilleros del novecientos. Cerec. (1991).\n    —Venegas Carrasco, Carolina. “Memorias de un Peregrino. Vida y obra del artista y combatiente liberal Peregrino Rivera Arce (1877-1940)”. Historia y Sociedad No. 14. (2008).\n    —Villamil Alba, Carlos Enrique. “La imagen en el álbum ‘Recuerdos de Campaña’ de Rivera Arce como una fuente de significaciones históricas culturales”. Tesis de Maestría en Historia de Arte. Universidad Jorge Tadeo Lozano. (2017).\n    ",
+    "sinSalida": true
+  },
+  "mapa": {
+    "texto": "¿Adónde ir?",
+    "imagen": "./assets/mapa.png",
+    "sinSalida": true
+  },
+  "2_1_1": {
+    "texto": "Una pausa, respirar<br><br><span class=\"transcription\">(El Morretón —Casa donde acampó el Bon 1º de Bogotá)</span>",
+    "imagen": "./assets/6.jpg",
+    "escena": "2_1_2"
+  },
+  "2_1_2": {
+    "texto": "Después del triunfo, un descanso<br><br><span class=\"transcription\">(Don Tinaja — El dueño de casa donde acampó el Cundinamarca)</span>",
+    "imagen": "./assets/10.jpg",
+    "escena": "2_1_3"
+  },
+  "2_1_3": {
+    "texto": "Queda mucho por delante<br><br><span class=\"transcription\">(El Morretón, donde se hospedó el Bon Bogotá)</span>",
+    "imagen": "./assets/7.jpg",
+    "escena": "2_1_4"
+  },
+  "2_1_4": {
+    "texto": "...Y se deja tanto atrás<br><br><span class=\"transcription\">(La cucuteña en Morretón.  ¿Volverá?....)</span>",
+    "imagen": "./assets/17.jpg",
+    "escena": "mapa"
+  },
+  "2_2_1": {
+    "texto": "Donde llevan los que sueñan,<br><br><span class=\"transcription\">(Amadeo 1º revolucionario)</span>",
+    "imagen": "./assets/9.jpg",
+    "escena": "2_2_2"
+  },
+  "2_2_2": {
+    "texto": "... Los cansados<br><br><span class=\"transcription\">(Un tipo de la revolución sin credenciales)</span>",
+    "imagen": "./assets/11.jpg",
+    "escena": "2_2_3"
+  },
+  "2_2_3": {
+    "texto": "... Tanto frío<br><br><span class=\"transcription\">(Entrábasele el humo en los ojitos)</span>",
+    "imagen": "./assets/12.jpg",
+    "escena": "mapa"
+  },
+  "3_1_1": {
+    "texto": "Las heridas<br><br><span class=\"transcription\">(Gral Cruz después de herido por una guerrilla)</span>",
+    "imagen": "./assets/15.jpg",
+    "escena": "3_1_2"
+  },
+  "3_1_2": {
+    "texto": "... Remendarlas<br><br><span class=\"transcription\">(Receta. Cuando le duela fuertemente la cabeza aplíquese un sinapismo en la cadera. \n—El Dr. Nemequene)</span>",
+    "imagen": "./assets/14.jpg",
+    "escena": "mapa"
+  },
+  "3_2_1": {
+    "texto": "Hacer frente<br><br><span class=\"transcription\">(Con tus ojos me arrebatas.  —Capitán Gaitán mirando al enemigo)</span>",
+    "imagen": "./assets/16.jpg",
+    "escena": "3_2_2"
+  },
+  "3_2_2": {
+    "texto": "... Y caer de espaldas<br><br><span class=\"transcription\">(Un abanderado malherido —Bucaramanga, Puerta del Sol)</span>",
+    "imagen": "./assets/13.jpg",
+    "escena": "mapa"
+  },
+  "4_1_1": {
+    "texto": "Con la escasez de brazos<br><br><span class=\"transcription\">(Escasos de revolucionarios)</span>",
+    "imagen": "./assets/25.jpg",
+    "escena": "4_1_2"
+  },
+  "4_1_2": {
+    "texto": "... El estandarte<br><br><span class=\"transcription\">(Sobre la mesa)</span>",
+    "imagen": "./assets/24.jpg",
+    "escena": "4_1_3"
+  },
+  "4_1_3": {
+    "texto": "... Pesa sobre la espalda<br><br><span class=\"transcription\">(Situación angustiosa. —Capitulación de Chucurí)</span>",
+    "imagen": "./assets/22.jpg",
+    "escena": "mapa"
+  },
+  "4_2_1": {
+    "texto": "<br><br><span class=\"transcription\">(Un trapiche de mano en el estado de Santander)</span>",
+    "imagen": "./assets/27.jpg",
+    "escena": "4_2_2"
+  },
+  "4_2_2": {
+    "texto": "<br><br><span class=\"transcription\">(Un veterano de la revolución. —Soldado de Boyacá)</span>",
+    "imagen": "./assets/20.jpg",
+    "escena": "4_2_3"
+  },
+  "4_2_3": {
+    "texto": "<br><br><span class=\"transcription\">(La chola enferma)</span>",
+    "imagen": "./assets/19.jpg",
+    "escena": "mapa"
+  },
+  "5_1_1": {
+    "texto": "... Un paisaje, un plan, un horizonte;<br><br><span class=\"transcription\">(Vista de Chopo a una legua de distancia de nuestro campamento)</span>",
+    "imagen": "./assets/26.jpg",
+    "escena": "5_1_2"
+  },
+  "5_1_2": {
+    "texto": "De cerca todo es más terreno<br><br><span class=\"transcription\">(En pesca de...)</span>",
+    "imagen": "./assets/23.jpg",
+    "escena": "mapa"
+  },
+  "6_1_1": {
+    "texto": "Para tener la barriga llena<br><br><span class=\"transcription\">(La cocina de Máxima)</span>",
+    "imagen": "./assets/31.jpg",
+    "escena": "6_1_2"
+  },
+  "6_1_2": {
+    "texto": "... Hay que pagar<br><br><span class=\"transcription\"></span>",
+    "imagen": "./assets/billete.jpg",
+    "escena": "mapa"
+  },
+  "6_2_1": {
+    "texto": "\"El héroe y el mártir aun vive. Sueña con la Libertad y delira con el porvenir de su Patria.\"<br><br><span class=\"transcription\">( Lugar donde reposan los restos del ilustre Martir del liberalismo Dr Exequiel Cuartas)</span>",
+    "imagen": "./assets/32.jpg",
+    "escena": "6_2_2"
+  },
+  "6_2_2": {
+    "texto": "<br><br><span class=\"transcription\">(Croquis del cementerio de Agua Sucia)</span>",
+    "imagen": "./assets/33.jpg",
+    "escena": "mapa"
+  },
+  "6_3_1": {
+    "texto": "A veces nos quedan grandes<br><br><span class=\"transcription\">(Un revolucionario que se organiza en chaqueta. —Estado Mayor)</span>",
+    "imagen": "./assets/35.jpg",
+    "escena": "6_3_2"
+  },
+  "6_3_2": {
+    "texto": "... Las cosas más pequeñas<br><br><span class=\"transcription\">(Después de pasar la trocha (el zorro García) quemósele la levita asando carne)</span>",
+    "imagen": "./assets/36.jpg",
+    "escena": "mapa"
+  },
+  "7_1_1": {
+    "texto": "... De esta vida donde perduran<br><br><span class=\"transcription\">(Una trinchera tomada —Bucaramanga)</span>",
+    "imagen": "./assets/45.jpg",
+    "escena": "7_1_2"
+  },
+  "7_1_2": {
+    "texto": "... La tristeza y el hastío<br><br><span class=\"transcription\">(Un machetero del ejército de Santander)</span>",
+    "imagen": "./assets/44.jpg",
+    "escena": "7_1_3"
+  },
+  "7_1_3": {
+    "texto": "... Y muchos recuerdos llorados<br><br><span class=\"transcription\">(Bon \"Libres de ocaña\". Una carga al machete —Palonegro)</span>",
+    "imagen": "./assets/38.jpg",
+    "escena": "7_1_4"
+  },
+  "7_1_4": {
+    "texto": "... Que van, como al mar el río<br><br><span class=\"transcription\">(Palo Negro — Croquis de un soldado muerto a machete)</span>",
+    "imagen": "./assets/37.jpg",
+    "escena": "mapa"
+  },
+  "8_1_1": {
+    "texto": "Con un aire puro<br><br><span class=\"transcription\">(Vista de un Campamento liberal en La Palmita — El Colombia)</span>",
+    "imagen": "./assets/28.jpg",
+    "escena": "8_1_2"
+  },
+  "8_1_2": {
+    "texto": "... Para respirar un día más<br><br><span class=\"transcription\">(Capitancito. Lugar donde se peleó para abrirse paso)</span>",
+    "imagen": "./assets/42.jpg",
+    "escena": "mapa"
+  },
+  "8_2_1": {
+    "texto": "Levantarse,<br><br><span class=\"transcription\">(La bandera de la revolución a la entrada de un campamento liberal)</span>",
+    "imagen": "./assets/43.jpg",
+    "escena": "8_2_2"
+  },
+  "8_2_2": {
+    "texto": "... Tomarse de las manos<br><br><span class=\"transcription\">(Don Eloy — Proveedor del ejercito liberal)</span>",
+    "imagen": "./assets/40.jpg",
+    "escena": "8_2_3"
+  },
+  "8_2_3": {
+    "texto": "... Y caer de nuevo<br><br><span class=\"transcription\">(Ramírez (provincia de Ocaña) Lugar donde fue asaltada una avanzada liberal</span>",
+    "imagen": "./assets/39.jpg",
+    "escena": "mapa"
+  },
+  "9_1_1": {
+    "texto": "Pavimentar un sendero<br><br><span class=\"transcription\"></span>",
+    "imagen": "./assets/47.jpg",
+    "escena": "9_1_2"
+  },
+  "9_1_2": {
+    "texto": "... Que al final se haga monumento<br><br><span class=\"transcription\">(Gral Uribe Uribe en traje de campaña)</span>",
+    "imagen": "./assets/2.jpg",
+    "escena": "mapa"
+  },
+  "9_2_1": {
+    "texto": "<br><br><span class=\"transcription\">(Estaba a tiro de graduarse —Haciendo el vale— El habilitado del Bon \"Libres de Ocaña\")</span>",
+    "imagen": "./assets/8.jpg",
+    "escena": "9_2_2"
+  },
+  "9_2_2": {
+    "texto": "<br><br><span class=\"transcription\">(Estaba para graduarse)</span>",
+    "imagen": "./assets/18.jpg",
+    "escena": "mapa"
+  }
+}

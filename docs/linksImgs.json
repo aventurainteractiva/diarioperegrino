@@ -1,0 +1,83 @@
+[
+  {
+    "x": "507",
+    "y": "387",
+    "w": 50,
+    "h": 50,
+    "texto": "1",
+    "escena": "1",
+    "tooltip": "Peralonso"
+  },
+  {
+    "x": "523",
+    "y": "442",
+    "w": 50,
+    "h": 50,
+    "texto": "2",
+    "escena": "2",
+    "tooltip": "Morretón"
+  },
+  {
+    "x": "332",
+    "y": "676",
+    "w": 50,
+    "h": 50,
+    "texto": "3",
+    "escena": "3",
+    "tooltip": "Bucaramanga"
+  },
+  {
+    "x": "224",
+    "y": "770",
+    "w": 50,
+    "h": 50,
+    "texto": "4",
+    "escena": "4",
+    "tooltip": "Chucurí"
+  },
+  {
+    "x": "507",
+    "y": "560",
+    "w": 50,
+    "h": 50,
+    "texto": "5",
+    "escena": "5",
+    "tooltip": "Chopo"
+  },
+  {
+    "x": "550",
+    "y": "397",
+    "w": 50,
+    "h": 50,
+    "texto": "6",
+    "escena": "6",
+    "tooltip": "Cúcuta"
+  },
+  {
+    "x": "308",
+    "y": "680",
+    "w": 50,
+    "h": 50,
+    "texto": "7",
+    "escena": "7",
+    "tooltip": "Palonegro"
+  },
+  {
+    "x": "270",
+    "y": "200",
+    "w": 50,
+    "h": 50,
+    "texto": "8",
+    "escena": "8",
+    "tooltip": "Ramírez"
+  },
+  {
+    "x": "449",
+    "y": "393",
+    "w": 50,
+    "h": 50,
+    "texto": "9",
+    "escena": "9",
+    "tooltip": "Terán"
+  }
+]

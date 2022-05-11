@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Álbum Peregrino Rivera Arce</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <style>
+    body {padding: 0; margin: 0;}
+    canvas {
+      border: solid 1px;
+    }
+
+    .title {
+      font-family: 'Didot';
+      text-align: center;
+      font-size: 20px;
+      margin: 20px 0px 0px 0px;
+      padding: 0px;
+    }
+
+    #storygeneraldiv {
+      box-sizing: border-box;
+      margin: 5px auto;
+      max-width: 520px;
+      background: #efe0ca;
+      font-family: 'Didot';
+      border-radius: 10px;
+    }
+    #storydiv {
+      width:100%;
+    }
+    .storyp {
+      min-height: 40px;
+      padding: 10px 10px;
+      margin: 0px;
+      font-size: 19px;
+    }
+
+    .storybutton {
+      border-radius: 10px;
+      padding: 5px;
+      background: #ccdeff;
+      box-shadow: none;
+      border: solid 1px;
+      margin: 0px 5px;
+      margin-bottom: 10px;
+      width: 47%;
+      font-size: 20px;
+      font-family: 'Didot';
+      cursor: pointer;
+      border: none;
+    }
+
+    .storybutton:hover {
+      color: white;
+      background: #2a4c8a;
+    }
+
+    .storyimage-container {
+      box-sizing: content-box;
+      position: relative;
+      padding: 10px;
+      max-width: 100%;
+      max-height: 70vh;
+      margin: auto;
+      display: flex;
+    }
+
+    .storyimage {
+      justify-content: center;
+      max-width: 100%;
+      max-height: 70vh;
+      margin: auto;
+      text-align: center;
+      border-radius: 20px;
+      display: block;
+    }
+
+    .storyimage-area {
+      position: absolute;
+      cursor: pointer;
+      text-align: center;
+      color: black;
+      background: #cd5c5c;
+      border-radius: 100px;
+      font-size: 23px;
+    }
+
+    .lastArea {
+      background: #0072c9;
+    }
+
+    .storyimage-area:hover {
+      background: white;
+      color: black;
+    }
+
+    .transcription {
+      color: gray;
+      text-align: center;
+    }
+
+    @media screen and (max-device-width: 500px) {
+      #storygeneraldiv {
+        max-width:100%;
+        margin: auto;
+      }
+      .storyimage {
+        max-width: 98%;
+      }
+      .storyp {
+        font-size: 6vw;
+      }
+      .storybutton {
+        font-size: 6vw;
+        width: 44%;
+      }
+    }
+  </style>
+  <body>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="./aventura.js"></script>
+    <script src="./sketch.js"></script>
+    <div id="general">
+      <h1 class="title">Historia Interactiva — Álbum de Peregrino Rivera</h1>
+    </div>
+  </body>
+</html>
